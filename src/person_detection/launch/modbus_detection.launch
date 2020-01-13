@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <arg name="id" default="0" />
+    <arg name="output" default="log" />
+
+    <include file="$(find plc_modbus_node)/launch/modbus.launch" />
+
+    <node pkg="person_detection" type="state_machine" name="state_machine" output="screen" />
+
+    <node pkg="person_detection" type="modbus_controller" name="modbus_controller" output="screen" />
+    <node pkg="person_detection" type="person_detection" name="person_detection" output="screen" />
+
+    <node pkg="person_detection" type="modbus_light" name="modbus_light" output="screen" />
+
+</launch>

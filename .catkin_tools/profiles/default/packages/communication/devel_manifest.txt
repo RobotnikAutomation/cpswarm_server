@@ -1,0 +1,5 @@
+communication
+/home/miguel/ws/cpswarm_server/devel/.private/communication/cmake.lock /home/miguel/ws/cpswarm_server/devel/./cmake.lock
+/home/miguel/ws/cpswarm_server/devel/.private/communication/lib/pkgconfig/communication.pc /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/communication.pc
+/home/miguel/ws/cpswarm_server/devel/.private/communication/share/communication/cmake/communicationConfig.cmake /home/miguel/ws/cpswarm_server/devel/share/communication/cmake/communicationConfig.cmake
+/home/miguel/ws/cpswarm_server/devel/.private/communication/share/communication/cmake/communicationConfig-version.cmake /home/miguel/ws/cpswarm_server/devel/share/communication/cmake/communicationConfig-version.cmake

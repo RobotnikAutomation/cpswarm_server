@@ -1,0 +1,12 @@
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/librcomponent.so
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rscomponent_template
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rcomponent_template
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/test_namespace
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rcomponent_simple_async
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rcomponent_simple
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rcomponent_server
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/rcomponent/rcomponent_diagnostic
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/python2.7/dist-packages/rcomponent/__init__.py
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/rcomponent.pc
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/rcomponent/cmake/rcomponentConfig.cmake
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/rcomponent/cmake/rcomponentConfig-version.cmake

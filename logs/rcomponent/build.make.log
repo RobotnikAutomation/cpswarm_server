@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target robotnik_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rscomponent_template[0m
+[  0%] Built target robotnik_msgs_generate_messages_cpp
+[  6%] [32mBuilding CXX object CMakeFiles/rscomponent_template.dir/src/rscomponent_template.cpp.o[0m
+[35m[1mScanning dependencies of target rcomponent[0m
+[35m[1mScanning dependencies of target rcomponent_template[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rcomponent.dir/src/rcomponent.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rcomponent_template.dir/src/rcomponent_template.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/librcomponent.so[0m
+[ 25%] Built target rcomponent
+[35m[1mScanning dependencies of target rcomponent_simple[0m
+[35m[1mScanning dependencies of target test_namespace[0m
+[35m[1mScanning dependencies of target rcomponent_diagnostic[0m
+[35m[1mScanning dependencies of target rcomponent_simple_async[0m
+[35m[1mScanning dependencies of target rcomponent_server[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rcomponent_simple_async.dir/src/simple_component_async.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rcomponent_simple.dir/src/simple_component.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rcomponent_server.dir/src/simple_service_component.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_namespace.dir/test/test_namespace.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rcomponent_diagnostic.dir/src/simple_diagnostics_component.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rcomponent_template[0m
+[ 62%] Built target rcomponent_template
+[ 68%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rscomponent_template[0m
+[ 68%] Built target rscomponent_template
+[ 75%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/test_namespace[0m
+[ 75%] Built target test_namespace
+[ 81%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rcomponent_server[0m
+[ 87%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rcomponent_simple_async[0m
+[ 87%] Built target rcomponent_server
+[ 87%] Built target rcomponent_simple_async
+[ 93%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rcomponent_simple[0m
+[ 93%] Built target rcomponent_simple
+[100%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/lib/rcomponent/rcomponent_diagnostic[0m
+[100%] Built target rcomponent_diagnostic

@@ -1,0 +1,108 @@
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target stereo_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target cpswarm_msgs_generate_messages_py
+[  0%] Built target cpswarm_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target stereo_msgs_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target stereo_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target stereo_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target stereo_msgs_generate_messages_py
+[  0%] Built target stereo_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target cvm_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target cvm_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target cvm_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target cvm_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target cvm_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target cpswarm_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target cvm_msgs_generate_messages_cpp
+[  0%] Built target cvm_msgs_generate_messages_nodejs
+[  0%] Built target cvm_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target cvm_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target stereo_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target cvm_msgs_generate_messages_py
+[35m[1mScanning dependencies of target stereo_msgs_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target stereo_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_cpp[0m
+[  0%] Built target cpswarm_msgs_generate_messages_nodejs
+[  0%] Built target stereo_msgs_generate_messages_eus
+[  0%] Built target cpswarm_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target modbus_controller[0m
+[35m[1mScanning dependencies of target person_detection[0m
+[35m[1mScanning dependencies of target modbus_light[0m
+[35m[1mScanning dependencies of target state_machine[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/modbus_controller.dir/src/modbus_controller.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/person_detection.dir/src/person_detection.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/modbus_light.dir/src/modbus_light.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/state_machine.dir/src/state_machine.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/person_detection[0m
+[ 75%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/modbus_light[0m
+[ 87%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/state_machine[0m
+[100%] [32m[1mLinking CXX executable /home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/modbus_controller[0m
+[100%] Built target person_detection
+[100%] Built target modbus_light
+[100%] Built target state_machine
+[100%] Built target modbus_controller

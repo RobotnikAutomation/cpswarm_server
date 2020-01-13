@@ -1,0 +1,12 @@
+Symlinking /home/miguel/ws/cpswarm_server/devel/./local_setup.zsh
+Symlinking /home/miguel/ws/cpswarm_server/devel/./local_setup.bash
+Symlinking /home/miguel/ws/cpswarm_server/devel/./setup.bash
+Symlinking /home/miguel/ws/cpswarm_server/devel/./setup.zsh
+Symlinking /home/miguel/ws/cpswarm_server/devel/./setup.sh
+Symlinking /home/miguel/ws/cpswarm_server/devel/./cmake.lock
+Symlinking /home/miguel/ws/cpswarm_server/devel/./_setup_util.py
+Symlinking /home/miguel/ws/cpswarm_server/devel/./local_setup.sh
+Symlinking /home/miguel/ws/cpswarm_server/devel/./env.sh
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

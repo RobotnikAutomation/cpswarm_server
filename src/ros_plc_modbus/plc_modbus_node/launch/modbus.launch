@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+    <node pkg="plc_modbus_node" type="ros_plc_modbus" name="plc_modbus_node" output="screen" respawn="true">
+        <param name="ip" value="192.168.1.150" />
+        <rosparam param="coils_addr">[0,1,2,16,17,18]</rosparam>
+        <rosparam param="regs_addr">[302]</rosparam>
+    </node>
+</launch>

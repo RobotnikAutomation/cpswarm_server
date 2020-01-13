@@ -1,0 +1,8 @@
+prefix=/home/miguel/ws/cpswarm_server/devel/.private/communication
+
+Name: communication
+Description: Description of communication
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

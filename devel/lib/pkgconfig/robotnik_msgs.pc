@@ -1,0 +1,1 @@
+/home/miguel/ws/cpswarm_server/devel/.private/robotnik_msgs/lib/pkgconfig/robotnik_msgs.pc

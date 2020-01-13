@@ -1,0 +1,1 @@
+/home/miguel/ws/cpswarm_server/devel/.private/cpswarm_msgs/lib/pkgconfig/cpswarm_msgs.pc

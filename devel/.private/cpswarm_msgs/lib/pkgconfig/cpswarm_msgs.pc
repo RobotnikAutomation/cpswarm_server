@@ -1,0 +1,8 @@
+prefix=/home/miguel/ws/cpswarm_server/devel/.private/cpswarm_msgs
+
+Name: cpswarm_msgs
+Description: Description of cpswarm_msgs
+Version: 1.1.0
+Cflags: -I/home/miguel/ws/cpswarm_server/devel/.private/cpswarm_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

@@ -1,0 +1,4 @@
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/plc_modbus_node.pc
+Symlinking /home/miguel/ws/cpswarm_server/devel/lib/plc_modbus_node/ros_plc_modbus
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/plc_modbus_node/cmake/plc_modbus_nodeConfig.cmake
+Symlinking /home/miguel/ws/cpswarm_server/devel/share/plc_modbus_node/cmake/plc_modbus_nodeConfig-version.cmake

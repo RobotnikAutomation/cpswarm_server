@@ -1,0 +1,1 @@
+/home/miguel/ws/cpswarm_server/devel/.private/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_nodeConfig.cmake

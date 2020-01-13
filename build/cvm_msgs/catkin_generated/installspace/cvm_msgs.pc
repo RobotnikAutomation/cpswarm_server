@@ -1,0 +1,8 @@
+prefix=/home/miguel/ws/cpswarm_server/install
+
+Name: cvm_msgs
+Description: Description of cvm_msgs
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs message_runtime std_msgs stereo_msgs

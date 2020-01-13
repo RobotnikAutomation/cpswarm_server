@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/miguel/ws/cpswarm_server/devel/.private/rcomponent/setup.sh

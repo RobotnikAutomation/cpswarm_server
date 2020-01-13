@@ -1,0 +1,569 @@
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_ArrayOfStates[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_Vector[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageActionGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_ArrayOfStates
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_Vector
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetWaypoint[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageActionGoal
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageFeedback[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetWaypoint
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageFeedback
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionGoal
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetResult[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetPoints[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetGoal
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_VectorStamped[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetPositionEvent[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetPoints
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetResult
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationGoal
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_VectorStamped
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetPositionEvent
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_ClearOfObstacles[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PoseToFix[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_NedToEnu[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CurrentState[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_ClearOfObstacles
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_NedToEnu
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PoseToFix
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocatedEvent[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyActionResult[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CurrentState
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationEvent[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageActionFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_Position[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocatedEvent
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyActionResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetActionFeedback[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationEvent
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageActionFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetDouble[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_Position
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingFeedback[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetActionFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationAction[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetDouble
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationAction
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageAction[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyActionGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetVector[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceGoal
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetActionGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionResult[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_AreaDivisionEvent[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageAction
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetVector
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyActionGoal
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_FixToPose[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetActionGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionResult
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_AreaDivisionEvent
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_FixToPose
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingActionResult[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyAction[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetSector[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_ClosestBound[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_Velocity[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyAction
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingActionResult
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetSector
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingActionGoal[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceFeedback[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_Velocity
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_ClosestBound
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingActionFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_NewCartEvent[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CartKnownEvent[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingActionGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceActionFeedback
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_ArrayOfPositions[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingActionFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetTracking[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_NewCartEvent
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetGpsFix[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CartKnownEvent
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingAction[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_ArrayOfPositions
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_Danger[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetTracking
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetAction[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageActionResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetGpsFix
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TrackingGoal[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingAction
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_Danger
+[35m[1mScanning dependencies of target swarmros_generate_messages_eus[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetAction
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_CoverageResult[0m
+[  0%] Built target swarmros_generate_messages_eus
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageActionResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_EmptyActionFeedback[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TrackingGoal
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_CoverageResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_OutOfBounds[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_EmptyActionFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_GetPoint[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionFeedback[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceResult[0m
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_OutOfBounds
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_GetPoint
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationActionFeedback
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_StateEvent[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_TargetActionResult[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TaskAllocationResult
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceAction[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_StateEvent
+[35m[1mScanning dependencies of target _cpswarm_msgs_generate_messages_check_deps_ArrayOfVectors[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_TargetActionResult
+[35m[1mScanning dependencies of target swarmros_generate_messages_py[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_PickAndPlaceAction
+[  0%] Built target swarmros_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target _cpswarm_msgs_generate_messages_check_deps_ArrayOfVectors
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target swarmros_generate_messages_nodejs[0m
+[  0%] Built target swarmros_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target swarmros_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target swarmros_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target swarmros_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_eus[0m
+[  0%] Built target swarmros_generate_messages_cpp
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages_cpp[0m
+[  0%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetPositionEvent.msg[0m
+[  0%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingFeedback.msg[0m
+[  1%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetPositionEvent.msg[0m
+[  1%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetPositionEvent.msg[0m
+[  1%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetPositionEvent[0m
+[  1%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetPositionEvent.msg[0m
+[  1%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingFeedback.msg[0m
+[  1%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingFeedback.msg[0m
+[  1%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageAction.msg[0m
+[  2%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageAction.msg[0m
+[  2%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingFeedback.msg[0m
+[  2%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingFeedback[0m
+[  2%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageAction.msg[0m
+[  3%] [34m[1mGenerating Javascript code from cpswarm_msgs/AreaDivisionEvent.msg[0m
+[  3%] [34m[1mGenerating EusLisp code from cpswarm_msgs/AreaDivisionEvent.msg[0m
+[  3%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetFeedback.msg[0m
+[  3%] [34m[1mGenerating Lisp code from cpswarm_msgs/AreaDivisionEvent.msg[0m
+[  3%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetFeedback.msg[0m
+[  3%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceFeedback.msg[0m
+[  4%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageAction[0m
+[  4%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceFeedback.msg[0m
+[  5%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetFeedback.msg[0m
+[  6%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingActionFeedback.msg[0m
+[  6%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageAction.msg[0m
+[  6%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingActionFeedback.msg[0m
+[  6%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceFeedback.msg[0m
+[  7%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetActionGoal.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetActionGoal.msg[0m
+[  7%] [34m[1mGenerating Python from MSG cpswarm_msgs/AreaDivisionEvent[0m
+[  7%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingActionFeedback.msg[0m
+[  7%] [34m[1mGenerating Javascript code from cpswarm_msgs/NewCartEvent.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from cpswarm_msgs/NewCartEvent.msg[0m
+[  7%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetActionGoal.msg[0m
+[  8%] [34m[1mGenerating C++ code from cpswarm_msgs/AreaDivisionEvent.msg[0m
+[  8%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationAction.msg[0m
+[  8%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetFeedback[0m
+[  9%] [34m[1mGenerating Lisp code from cpswarm_msgs/NewCartEvent.msg[0m
+[  9%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocatedEvent.msg[0m
+[  9%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationAction.msg[0m
+[  9%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationAction.msg[0m
+[ 10%] [34m[1mGenerating Javascript code from cpswarm_msgs/CartKnownEvent.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocatedEvent.msg[0m
+[ 11%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetFeedback.msg[0m
+[ 11%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceFeedback[0m
+[ 11%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocatedEvent.msg[0m
+[ 11%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingActionResult.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CartKnownEvent.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from cpswarm_msgs/CartKnownEvent.msg[0m
+[ 11%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceResult.msg[0m
+[ 12%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingActionFeedback[0m
+[ 12%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceFeedback.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingActionResult.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingActionResult.msg[0m
+[ 14%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationEvent.msg[0m
+[ 14%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceGoal.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceResult.msg[0m
+[ 14%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceResult.msg[0m
+[ 14%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetActionGoal[0m
+[ 14%] [34m[1mGenerating Javascript code from cpswarm_msgs/ArrayOfPositions.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationEvent.msg[0m
+[ 14%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingActionFeedback.msg[0m
+[ 15%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationEvent.msg[0m
+[ 15%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationGoal.msg[0m
+[ 16%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceGoal.msg[0m
+[ 16%] [34m[1mGenerating Python from MSG cpswarm_msgs/NewCartEvent[0m
+[ 16%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceGoal.msg[0m
+[ 17%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceActionResult.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from cpswarm_msgs/ArrayOfPositions.msg[0m
+[ 18%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetActionGoal.msg[0m
+[ 18%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyAction.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationGoal.msg[0m
+[ 18%] [34m[1mGenerating EusLisp code from cpswarm_msgs/ArrayOfPositions.msg[0m
+[ 18%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationAction[0m
+[ 18%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyGoal.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceActionResult.msg[0m
+[ 19%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationGoal.msg[0m
+[ 19%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetTracking.msg[0m
+[ 20%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyAction.msg[0m
+[ 20%] [34m[1mGenerating C++ code from cpswarm_msgs/NewCartEvent.msg[0m
+[ 21%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocatedEvent[0m
+[ 21%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceActionResult.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationActionGoal.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyGoal.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingAction.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetTracking.msg[0m
+[ 22%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyAction.msg[0m
+[ 22%] [34m[1mGenerating Python from MSG cpswarm_msgs/CartKnownEvent[0m
+[ 22%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationActionResult.msg[0m
+[ 22%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationAction.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationActionGoal.msg[0m
+[ 22%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyGoal.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from cpswarm_msgs/CurrentState.msg[0m
+[ 23%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingAction.msg[0m
+[ 23%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingActionResult[0m
+[ 24%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetTracking.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyActionGoal.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationActionResult.msg[0m
+[ 25%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocatedEvent.msg[0m
+[ 25%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationActionGoal.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetAction.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from cpswarm_msgs/CurrentState.msg[0m
+[ 26%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceResult[0m
+[ 26%] [34m[1mGenerating Javascript code from cpswarm_msgs/StateEvent.msg[0m
+[ 26%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyActionGoal.msg[0m
+[ 26%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingAction.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageActionResult.msg[0m
+[ 28%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetAction.msg[0m
+[ 29%] [34m[1mGenerating C++ code from cpswarm_msgs/CartKnownEvent.msg[0m
+[ 29%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingActionResult.msg[0m
+[ 29%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationActionResult.msg[0m
+[ 29%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationEvent[0m
+[ 29%] [34m[1mGenerating Javascript code from cpswarm_msgs/Position.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from cpswarm_msgs/StateEvent.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyActionResult.msg[0m
+[ 30%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CurrentState.msg[0m
+[ 30%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageActionResult.msg[0m
+[ 30%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceGoal[0m
+[ 30%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceResult.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from cpswarm_msgs/VectorStamped.msg[0m
+[ 31%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationEvent.msg[0m
+[ 31%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyActionGoal.msg[0m
+[ 32%] [34m[1mGenerating Lisp code from cpswarm_msgs/Position.msg[0m
+[ 34%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetActionFeedback.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyActionResult.msg[0m
+[ 34%] [34m[1mGenerating Python from MSG cpswarm_msgs/ArrayOfPositions[0m
+[ 34%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetAction.msg[0m
+[ 34%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyResult.msg[0m
+[ 34%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceGoal.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from cpswarm_msgs/VectorStamped.msg[0m
+[ 34%] [34m[1mGenerating C++ code from cpswarm_msgs/ArrayOfPositions.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from cpswarm_msgs/StateEvent.msg[0m
+[ 35%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingGoal.msg[0m
+[ 35%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetActionFeedback.msg[0m
+[ 36%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationGoal[0m
+[ 36%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceAction.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageActionResult.msg[0m
+[ 37%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyResult.msg[0m
+[ 37%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationGoal.msg[0m
+[ 38%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageResult.msg[0m
+[ 39%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceActionResult.msg[0m
+[ 39%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingGoal.msg[0m
+[ 39%] [34m[1mGenerating EusLisp code from cpswarm_msgs/Position.msg[0m
+[ 39%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceActionResult[0m
+[ 39%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingActionGoal.msg[0m
+[ 39%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceAction.msg[0m
+[ 39%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyActionResult.msg[0m
+[ 39%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationActionFeedback.msg[0m
+[ 39%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageResult.msg[0m
+[ 39%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyAction[0m
+[ 39%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyAction.msg[0m
+[ 39%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyGoal.msg[0m
+[ 40%] [34m[1mGenerating EusLisp code from cpswarm_msgs/VectorStamped.msg[0m
+[ 40%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationResult.msg[0m
+[ 41%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingActionGoal.msg[0m
+[ 42%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceActionGoal.msg[0m
+[ 42%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetActionFeedback.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationActionFeedback.msg[0m
+[ 42%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyGoal[0m
+[ 42%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetTracking.msg[0m
+[ 42%] [34m[1mGenerating Javascript code from cpswarm_msgs/PickAndPlaceActionFeedback.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationResult.msg[0m
+[ 43%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationActionGoal.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyResult.msg[0m
+[ 43%] [34m[1mGenerating Javascript code from cpswarm_msgs/ArrayOfVectors.msg[0m
+[ 44%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceActionGoal.msg[0m
+[ 45%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetTracking[0m
+[ 45%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingGoal.msg[0m
+[ 46%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetActionResult.msg[0m
+[ 46%] [34m[1mGenerating Lisp code from cpswarm_msgs/PickAndPlaceActionFeedback.msg[0m
+[ 46%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingAction.msg[0m
+[ 46%] [34m[1mGenerating Javascript code from cpswarm_msgs/ArrayOfStates.msg[0m
+[ 46%] [34m[1mGenerating Lisp code from cpswarm_msgs/ArrayOfVectors.msg[0m
+[ 47%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceAction.msg[0m
+[ 47%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationActionGoal[0m
+[ 47%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingAction[0m
+[ 47%] [34m[1mGenerating Javascript code from cpswarm_msgs/TrackingResult.msg[0m
+[ 47%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetActionResult.msg[0m
+[ 47%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageResult.msg[0m
+[ 47%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetResult.msg[0m
+[ 48%] [34m[1mGenerating Lisp code from cpswarm_msgs/ArrayOfStates.msg[0m
+[ 48%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationActionResult.msg[0m
+[ 48%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationActionResult[0m
+[ 49%] [34m[1mGenerating Python from MSG cpswarm_msgs/CurrentState[0m
+[ 49%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingActionGoal.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from cpswarm_msgs/Velocity.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from cpswarm_msgs/TrackingResult.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from cpswarm_msgs/TaskAllocationFeedback.msg[0m
+[ 50%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationActionFeedback.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetResult.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from cpswarm_msgs/Velocity.msg[0m
+[ 50%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyActionGoal[0m
+[ 50%] [34m[1mGenerating C++ code from cpswarm_msgs/CurrentState.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageActionFeedback.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyActionFeedback.msg[0m
+[ 51%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationResult.msg[0m
+[ 52%] [34m[1mGenerating Lisp code from cpswarm_msgs/TaskAllocationFeedback.msg[0m
+[ 52%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceActionGoal.msg[0m
+[ 53%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageGoal.msg[0m
+[ 53%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetAction[0m
+[ 53%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageActionFeedback.msg[0m
+[ 53%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyActionFeedback.msg[0m
+[ 53%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageActionGoal.msg[0m
+[ 54%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyActionGoal.msg[0m
+[ 54%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PickAndPlaceActionFeedback.msg[0m
+[ 54%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageGoal.msg[0m
+[ 55%] [34m[1mGenerating EusLisp code from cpswarm_msgs/ArrayOfVectors.msg[0m
+[ 55%] [34m[1mGenerating Javascript code from cpswarm_msgs/TargetGoal.msg[0m
+[ 56%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageActionGoal.msg[0m
+[ 57%] [34m[1mGenerating Python from MSG cpswarm_msgs/StateEvent[0m
+[ 57%] [34m[1mGenerating Lisp code from cpswarm_msgs/TargetGoal.msg[0m
+[ 57%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetActionResult.msg[0m
+[ 57%] [34m[1mGenerating Javascript code from cpswarm_msgs/EmptyFeedback.msg[0m
+[ 57%] [34m[1mGenerating Lisp code from cpswarm_msgs/EmptyFeedback.msg[0m
+[ 57%] [34m[1mGenerating EusLisp code from cpswarm_msgs/ArrayOfStates.msg[0m
+[ 57%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetAction.msg[0m
+[ 58%] [34m[1mGenerating Javascript code from cpswarm_msgs/Vector.msg[0m
+[ 59%] [34m[1mGenerating Lisp code from cpswarm_msgs/Vector.msg[0m
+[ 59%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageActionResult[0m
+[ 59%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TrackingResult.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from cpswarm_msgs/CoverageFeedback.msg[0m
+[ 59%] [34m[1mGenerating Lisp code from cpswarm_msgs/CoverageFeedback.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetPoints.srv[0m
+[ 60%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetResult.msg[0m
+[ 60%] [34m[1mGenerating EusLisp code from cpswarm_msgs/Velocity.msg[0m
+[ 60%] [34m[1mGenerating C++ code from cpswarm_msgs/StateEvent.msg[0m
+[ 60%] [34m[1mGenerating Python from MSG cpswarm_msgs/Position[0m
+[ 60%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetPoints.srv[0m
+[ 61%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetSector.srv[0m
+[ 61%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetSector.srv[0m
+[ 62%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetDouble.srv[0m
+[ 62%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TaskAllocationFeedback.msg[0m
+[ 62%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetDouble.srv[0m
+[ 62%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetVector.srv[0m
+[ 62%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyActionResult[0m
+[ 62%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetVector.srv[0m
+[ 63%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageActionResult.msg[0m
+[ 63%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageActionFeedback.msg[0m
+[ 63%] [34m[1mGenerating Lisp code from cpswarm_msgs/PoseToFix.srv[0m
+[ 63%] [34m[1mGenerating Javascript code from cpswarm_msgs/PoseToFix.srv[0m
+[ 63%] [34m[1mGenerating Lisp code from cpswarm_msgs/ClosestBound.srv[0m
+[ 64%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyActionFeedback.msg[0m
+[ 65%] [34m[1mGenerating Javascript code from cpswarm_msgs/ClosestBound.srv[0m
+[ 67%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetActionFeedback[0m
+[ 67%] [34m[1mGenerating Python from MSG cpswarm_msgs/VectorStamped[0m
+[ 68%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetGpsFix.srv[0m
+[ 68%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetGpsFix.srv[0m
+[ 68%] [34m[1mGenerating C++ code from cpswarm_msgs/Position.msg[0m
+[ 68%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageGoal.msg[0m
+[ 68%] [34m[1mGenerating Lisp code from cpswarm_msgs/NedToEnu.srv[0m
+[ 68%] [34m[1mGenerating Javascript code from cpswarm_msgs/NedToEnu.srv[0m
+[ 68%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyResult[0m
+[ 68%] [34m[1mGenerating Lisp code from cpswarm_msgs/OutOfBounds.srv[0m
+[ 68%] [34m[1mGenerating Javascript code from cpswarm_msgs/OutOfBounds.srv[0m
+[ 68%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageActionGoal.msg[0m
+[ 68%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetPoint.srv[0m
+[ 69%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetPoint.srv[0m
+[ 69%] [34m[1mGenerating EusLisp code from cpswarm_msgs/TargetGoal.msg[0m
+[ 69%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyActionResult.msg[0m
+[ 70%] [34m[1mGenerating Lisp code from cpswarm_msgs/FixToPose.srv[0m
+[ 70%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingGoal[0m
+[ 70%] [34m[1mGenerating Javascript code from cpswarm_msgs/FixToPose.srv[0m
+[ 70%] [34m[1mGenerating Lisp code from cpswarm_msgs/ClearOfObstacles.srv[0m
+[ 70%] [34m[1mGenerating Javascript code from cpswarm_msgs/ClearOfObstacles.srv[0m
+[ 71%] [34m[1mGenerating EusLisp code from cpswarm_msgs/EmptyFeedback.msg[0m
+[ 71%] [34m[1mGenerating Lisp code from cpswarm_msgs/Danger.srv[0m
+[ 72%] [34m[1mGenerating Javascript code from cpswarm_msgs/Danger.srv[0m
+[ 73%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceAction[0m
+[ 73%] [34m[1mGenerating EusLisp code from cpswarm_msgs/Vector.msg[0m
+[ 74%] [34m[1mGenerating Lisp code from cpswarm_msgs/GetWaypoint.srv[0m
+[ 74%] [34m[1mGenerating C++ code from cpswarm_msgs/VectorStamped.msg[0m
+[ 74%] [34m[1mGenerating Javascript code from cpswarm_msgs/GetWaypoint.srv[0m
+[ 74%] Built target cpswarm_msgs_generate_messages_lisp
+[ 75%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetActionFeedback.msg[0m
+[ 75%] Built target cpswarm_msgs_generate_messages_nodejs
+[ 75%] [34m[1mGenerating EusLisp code from cpswarm_msgs/CoverageFeedback.msg[0m
+[ 76%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetPoints.srv[0m
+[ 76%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageResult[0m
+[ 76%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetSector.srv[0m
+[ 76%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyResult.msg[0m
+[ 76%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingGoal.msg[0m
+[ 76%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceAction.msg[0m
+[ 76%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetDouble.srv[0m
+[ 76%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingActionGoal[0m
+[ 76%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetVector.srv[0m
+[ 77%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageResult.msg[0m
+[ 77%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingActionGoal.msg[0m
+[ 77%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationActionFeedback[0m
+[ 78%] [34m[1mGenerating EusLisp code from cpswarm_msgs/PoseToFix.srv[0m
+[ 78%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationActionFeedback.msg[0m
+[ 78%] [34m[1mGenerating EusLisp code from cpswarm_msgs/ClosestBound.srv[0m
+[ 78%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationResult.msg[0m
+[ 79%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceActionGoal.msg[0m
+[ 80%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationResult[0m
+[ 80%] [34m[1mGenerating C++ code from cpswarm_msgs/PickAndPlaceActionFeedback.msg[0m
+[ 80%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetGpsFix.srv[0m
+[ 80%] [34m[1mGenerating EusLisp code from cpswarm_msgs/NedToEnu.srv[0m
+[ 80%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceActionGoal[0m
+[ 80%] [34m[1mGenerating C++ code from cpswarm_msgs/ArrayOfVectors.msg[0m
+[ 81%] [34m[1mGenerating EusLisp code from cpswarm_msgs/OutOfBounds.srv[0m
+[ 82%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetActionResult.msg[0m
+[ 82%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetPoint.srv[0m
+[ 82%] [34m[1mGenerating Python from MSG cpswarm_msgs/PickAndPlaceActionFeedback[0m
+[ 82%] [34m[1mGenerating EusLisp code from cpswarm_msgs/FixToPose.srv[0m
+[ 83%] [34m[1mGenerating Python from MSG cpswarm_msgs/ArrayOfVectors[0m
+[ 83%] [34m[1mGenerating C++ code from cpswarm_msgs/ArrayOfStates.msg[0m
+[ 83%] [34m[1mGenerating C++ code from cpswarm_msgs/TrackingResult.msg[0m
+[ 83%] [34m[1mGenerating EusLisp code from cpswarm_msgs/ClearOfObstacles.srv[0m
+[ 84%] [34m[1mGenerating EusLisp code from cpswarm_msgs/Danger.srv[0m
+[ 84%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetActionResult[0m
+[ 84%] [34m[1mGenerating EusLisp code from cpswarm_msgs/GetWaypoint.srv[0m
+[ 84%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetResult.msg[0m
+[ 84%] [34m[1mGenerating EusLisp manifest code for cpswarm_msgs[0m
+[ 84%] [34m[1mGenerating Python from MSG cpswarm_msgs/ArrayOfStates[0m
+[ 85%] [34m[1mGenerating C++ code from cpswarm_msgs/Velocity.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG cpswarm_msgs/TrackingResult[0m
+[ 86%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetResult[0m
+[ 86%] [34m[1mGenerating C++ code from cpswarm_msgs/TaskAllocationFeedback.msg[0m
+[ 86%] [34m[1mGenerating Python from MSG cpswarm_msgs/Velocity[0m
+[ 86%] [34m[1mGenerating Python from MSG cpswarm_msgs/TaskAllocationFeedback[0m
+[ 86%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageActionFeedback.msg[0m
+[ 86%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageActionFeedback[0m
+[ 86%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyActionFeedback.msg[0m
+[ 87%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyActionFeedback[0m
+[ 87%] Built target cpswarm_msgs_generate_messages_eus
+[ 88%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageGoal.msg[0m
+[ 88%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageGoal[0m
+[ 88%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageActionGoal[0m
+[ 88%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageActionGoal.msg[0m
+[ 88%] [34m[1mGenerating Python from MSG cpswarm_msgs/TargetGoal[0m
+[ 88%] [34m[1mGenerating C++ code from cpswarm_msgs/TargetGoal.msg[0m
+[ 89%] [34m[1mGenerating Python from MSG cpswarm_msgs/EmptyFeedback[0m
+[ 89%] [34m[1mGenerating Python from MSG cpswarm_msgs/Vector[0m
+[ 89%] [34m[1mGenerating C++ code from cpswarm_msgs/EmptyFeedback.msg[0m
+[ 89%] [34m[1mGenerating Python from MSG cpswarm_msgs/CoverageFeedback[0m
+[ 90%] [34m[1mGenerating C++ code from cpswarm_msgs/Vector.msg[0m
+[ 91%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetPoints[0m
+[ 91%] [34m[1mGenerating C++ code from cpswarm_msgs/CoverageFeedback.msg[0m
+[ 91%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetSector[0m
+[ 91%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetDouble[0m
+[ 91%] [34m[1mGenerating C++ code from cpswarm_msgs/GetPoints.srv[0m
+[ 91%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetVector[0m
+[ 92%] [34m[1mGenerating Python code from SRV cpswarm_msgs/PoseToFix[0m
+[ 92%] [34m[1mGenerating Python code from SRV cpswarm_msgs/ClosestBound[0m
+[ 92%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetGpsFix[0m
+[ 93%] [34m[1mGenerating C++ code from cpswarm_msgs/GetSector.srv[0m
+[ 93%] [34m[1mGenerating C++ code from cpswarm_msgs/GetDouble.srv[0m
+[ 93%] [34m[1mGenerating Python code from SRV cpswarm_msgs/NedToEnu[0m
+[ 94%] [34m[1mGenerating Python code from SRV cpswarm_msgs/OutOfBounds[0m
+[ 94%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetPoint[0m
+[ 94%] [34m[1mGenerating Python code from SRV cpswarm_msgs/FixToPose[0m
+[ 94%] [34m[1mGenerating C++ code from cpswarm_msgs/GetVector.srv[0m
+[ 94%] [34m[1mGenerating C++ code from cpswarm_msgs/PoseToFix.srv[0m
+[ 95%] [34m[1mGenerating C++ code from cpswarm_msgs/ClosestBound.srv[0m
+[ 95%] [34m[1mGenerating Python code from SRV cpswarm_msgs/ClearOfObstacles[0m
+[ 96%] [34m[1mGenerating Python code from SRV cpswarm_msgs/Danger[0m
+[ 96%] [34m[1mGenerating C++ code from cpswarm_msgs/GetGpsFix.srv[0m
+[ 96%] [34m[1mGenerating C++ code from cpswarm_msgs/NedToEnu.srv[0m
+[ 96%] [34m[1mGenerating Python code from SRV cpswarm_msgs/GetWaypoint[0m
+[ 96%] [34m[1mGenerating C++ code from cpswarm_msgs/OutOfBounds.srv[0m
+[ 96%] [34m[1mGenerating Python msg __init__.py for cpswarm_msgs[0m
+[ 97%] [34m[1mGenerating Python srv __init__.py for cpswarm_msgs[0m
+[ 97%] Built target cpswarm_msgs_generate_messages_py
+[ 98%] [34m[1mGenerating C++ code from cpswarm_msgs/GetPoint.srv[0m
+[ 98%] [34m[1mGenerating C++ code from cpswarm_msgs/FixToPose.srv[0m
+[ 98%] [34m[1mGenerating C++ code from cpswarm_msgs/ClearOfObstacles.srv[0m
+[ 98%] [34m[1mGenerating C++ code from cpswarm_msgs/Danger.srv[0m
+[100%] [34m[1mGenerating C++ code from cpswarm_msgs/GetWaypoint.srv[0m
+[100%] Built target cpswarm_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target cpswarm_msgs_generate_messages[0m
+[100%] Built target cpswarm_msgs_generate_messages

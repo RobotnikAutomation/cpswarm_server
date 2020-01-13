@@ -1,0 +1,1 @@
+/home/miguel/ws/cpswarm_server/devel/.private/plc_modbus_node/lib/pkgconfig/plc_modbus_node.pc
