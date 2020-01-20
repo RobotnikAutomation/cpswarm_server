@@ -1,9 +1,0 @@
-person_detection
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/cmake.lock /home/miguel/ws/cpswarm_server/devel/./cmake.lock
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/pkgconfig/person_detection.pc /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/person_detection.pc
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/modbus_controller /home/miguel/ws/cpswarm_server/devel/lib/person_detection/modbus_controller
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/modbus_light /home/miguel/ws/cpswarm_server/devel/lib/person_detection/modbus_light
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/person_detection /home/miguel/ws/cpswarm_server/devel/lib/person_detection/person_detection
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/lib/person_detection/state_machine /home/miguel/ws/cpswarm_server/devel/lib/person_detection/state_machine
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/share/person_detection/cmake/person_detectionConfig-version.cmake /home/miguel/ws/cpswarm_server/devel/share/person_detection/cmake/person_detectionConfig-version.cmake
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/share/person_detection/cmake/person_detectionConfig.cmake /home/miguel/ws/cpswarm_server/devel/share/person_detection/cmake/person_detectionConfig.cmake
