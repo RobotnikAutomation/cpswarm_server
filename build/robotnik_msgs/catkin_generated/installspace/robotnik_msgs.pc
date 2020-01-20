@@ -1,8 +1,0 @@
-prefix=/home/miguel/ws/cpswarm_server/install
-
-Name: robotnik_msgs
-Description: Description of robotnik_msgs
-Version: 0.2.7
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: actionlib_msgs message_runtime std_msgs geometry_msgs

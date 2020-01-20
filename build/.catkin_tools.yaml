@@ -1,6 +1,0 @@
-devel_space: /home/miguel/ws/cpswarm_server/devel
-install: false
-install_space: /home/miguel/ws/cpswarm_server/install
-profile: default
-source_space: /home/miguel/ws/cpswarm_server/src
-workspace: /home/miguel/ws/cpswarm_server

@@ -1,8 +1,0 @@
-prefix=/home/miguel/ws/cpswarm_server/devel/.private/plc_modbus_node
-
-Name: plc_modbus_node
-Description: Description of plc_modbus_node
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

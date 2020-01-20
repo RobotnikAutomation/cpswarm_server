@@ -1,1 +1,0 @@
-/home/miguel/ws/cpswarm_server/devel/.private/cpswarm_msgs/share/roseus/ros/cpswarm_msgs/msg/EmptyResult.l

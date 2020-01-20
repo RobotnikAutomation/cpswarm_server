@@ -1,1 +1,0 @@
-/home/miguel/ws/cpswarm_server/devel/.private/robotnik_msgs/share/robotnik_msgs/msg/SetElevatorActionFeedback.msg

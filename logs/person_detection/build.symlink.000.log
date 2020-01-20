@@ -1,7 +1,0 @@
-Symlinking /home/miguel/ws/cpswarm_server/devel/lib/pkgconfig/person_detection.pc
-Symlinking /home/miguel/ws/cpswarm_server/devel/lib/person_detection/modbus_controller
-Symlinking /home/miguel/ws/cpswarm_server/devel/lib/person_detection/modbus_light
-Symlinking /home/miguel/ws/cpswarm_server/devel/lib/person_detection/person_detection
-Symlinking /home/miguel/ws/cpswarm_server/devel/lib/person_detection/state_machine
-Symlinking /home/miguel/ws/cpswarm_server/devel/share/person_detection/cmake/person_detectionConfig-version.cmake
-Symlinking /home/miguel/ws/cpswarm_server/devel/share/person_detection/cmake/person_detectionConfig.cmake

@@ -1,8 +1,0 @@
-prefix=/home/miguel/ws/cpswarm_server/devel/.private/person_detection
-
-Name: person_detection
-Description: Description of person_detection
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: cpswarm_msgs

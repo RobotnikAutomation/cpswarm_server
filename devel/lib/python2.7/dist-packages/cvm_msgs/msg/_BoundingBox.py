@@ -1,1 +1,0 @@
-/home/miguel/ws/cpswarm_server/devel/.private/cvm_msgs/lib/python2.7/dist-packages/cvm_msgs/msg/_BoundingBox.py

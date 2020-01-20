@@ -1,6 +1,0 @@
-set(rcomponent_SETUP_PY_VERSION "1.1.0")
-set(rcomponent_SETUP_PY_SCRIPTS "")
-set(rcomponent_SETUP_PY_PACKAGES "rcomponent")
-set(rcomponent_SETUP_PY_PACKAGE_DIRS "src/rcomponent")
-set(rcomponent_SETUP_PY_MODULES "")
-set(rcomponent_SETUP_PY_MODULE_DIRS "")

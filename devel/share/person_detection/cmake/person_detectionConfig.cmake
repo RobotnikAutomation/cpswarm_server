@@ -1,1 +1,0 @@
-/home/miguel/ws/cpswarm_server/devel/.private/person_detection/share/person_detection/cmake/person_detectionConfig.cmake
