@@ -147,10 +147,10 @@ void plc_modbus_manager::regs_callBack(const std_msgs::UInt16MultiArray::ConstPt
       ROS_ERROR("Modbus reg write failed at addr:%d with value:%u", regs_addr.at(i), regs_data->data.at(i));
       ROS_ERROR("%s", modbus_strerror(errno));
     }
-    else
+    /*else
     {
       ROS_INFO("Modbus register write at addr:%d with value:%u", regs_addr.at(i), regs_data->data.at(i));
-    }
+    }*/
   }
 }
 

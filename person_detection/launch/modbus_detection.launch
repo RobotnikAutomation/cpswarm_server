@@ -1,16 +1,23 @@
 <?xml version="1.0" ?>
 <launch>
 
-    <arg name="id" default="0" />
-    <arg name="output" default="log" />
+    <!-- launch communication library -->
+    <include file="$(find communication)/launch/communication_library.launch"/>
 
+    <!-- launch modbus controller -->
     <include file="$(find plc_modbus_node)/launch/modbus.launch" />
 
+    <!-- state machine for current_state -->
     <node pkg="person_detection" type="state_machine" name="state_machine" output="screen" />
 
+    <!-- launch modbus control box controller -->
     <node pkg="person_detection" type="modbus_controller" name="modbus_controller" output="screen" />
+
+    <!-- launch person detection in VIPER -->
     <node pkg="person_detection" type="person_detection" name="person_detection" output="screen" />
 
+    <!-- launch light controller -->
     <node pkg="person_detection" type="modbus_light" name="modbus_light" output="screen" />
+
 
 </launch>

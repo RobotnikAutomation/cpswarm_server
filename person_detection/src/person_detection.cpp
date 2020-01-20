@@ -5,6 +5,8 @@
 
 bool person = false;
 
+bool last_check = false;
+
 std_msgs::Bool person_msg;
 
 void callback(cvm_msgs::BoundingBoxes msg)
@@ -35,13 +37,15 @@ int main(int argc, char *argv[])
 
   while (ros::ok())
   {
-    if (person)
+    if (last_check != person && person == true)
     {
       ROS_INFO("PERSON");
+      last_check = person;
     }
-    else
+    else if (last_check != person && person == false)
     {
       ROS_INFO("NO PERSON");
+      last_check = person;
     }
     person_msg.data = person;
 

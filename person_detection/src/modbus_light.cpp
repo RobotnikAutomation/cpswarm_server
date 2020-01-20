@@ -9,11 +9,15 @@ const int light_off = 0;
 
 int color = light_off;
 int state = 4;
+int last_state = 4;
 
 void callback(cpswarm_msgs::CurrentState state_msg)
 {
   state = state_msg.state.data;
-  ROS_INFO("%i", state);
+  if (state != last_state){
+  	ROS_INFO("Current state updated to: %i", state);
+	last_state = state;
+  }
 }
 
 int main(int argc, char *argv[])

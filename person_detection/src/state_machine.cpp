@@ -31,7 +31,7 @@ void callback_person(std_msgs::Bool person_detected_msg)
 
 void callback_controller(std_msgs::Int8 controller_msg)
 {
-  ROS_ERROR("BUTTON");
+  //ROS_ERROR("BUTTON");
   switch (controller_msg.data)
   {
     case 1:

@@ -13,19 +13,19 @@ void callback(std_msgs::ByteMultiArray coils_msg)
   std_msgs::Int8 button_msg;
   if (coils_msg.data[yellow_button_bit] == 1)
   {
-    ROS_INFO("yellow");
+    //ROS_INFO("yellow");
     button_msg.data = 2;
     pub_button.publish(button_msg);
   }
   else if (coils_msg.data[green_button_bit] == 1)
   {
-    ROS_INFO("green");
+    //ROS_INFO("green");
     button_msg.data = 1;
     pub_button.publish(button_msg);
   }
   else if (coils_msg.data[red_button_bit] == 1)
   {
-    ROS_INFO("red");
+    //ROS_INFO("red");
     button_msg.data = 3;
     pub_button.publish(button_msg);
   }
