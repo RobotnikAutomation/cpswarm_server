@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<launch>
+    <include file="$(find plc_modbus_node)/launch/modbus.launch" />
+
+    <arg name="url_A" default="192.168.1.201:8080" />
+    <arg name="url_B" default="192.168.1.202:8080" />
+    <arg name="url_C" default="192.168.1.203:8080" />
+    <arg name="url_D" default="192.168.1.204:8080" />
+    <arg name="url_E" default="192.168.1.205:8080" />
+    <arg name="url_F" default="192.168.1.206:8080" />
+
+    <!--  -->
+    <node pkg="rostful" type="client" name="rostful_client_A" output="screen" args="--publish-interval 0.5 --prefix turtlebot_A $(arg url_A)" />
+    <node pkg="rostful" type="client" name="rostful_client_B" output="screen" args="--publish-interval 0.5 --prefix turtlebot_B $(arg url_B)" />
+    <node pkg="rostful" type="client" name="rostful_client_C" output="screen" args="--publish-interval 0.5 --prefix turtlebot_C $(arg url_C)" />
+    <node pkg="rostful" type="client" name="rostful_client_D" output="screen" args="--publish-interval 0.5 --prefix turtlebot_D $(arg url_D)" />
+    <node pkg="rostful" type="client" name="rostful_client_E" output="screen" args="--publish-interval 0.5 --prefix turtlebot_E $(arg url_E)" />
+    <node pkg="rostful" type="client" name="rostful_client_F" output="screen" args="--publish-interval 0.5 --prefix turtlebot_F $(arg url_F)" />
+    <!-- rest-prefix-server ros -->
+</launch>
