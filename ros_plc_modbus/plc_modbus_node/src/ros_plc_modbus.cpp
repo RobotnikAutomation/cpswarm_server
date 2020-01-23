@@ -77,6 +77,9 @@ plc_modbus_manager::plc_modbus_manager()
     ROS_INFO("Connection to modbus device established");
   }
 
+  struct timeval response_timeout;
+  response_timeout.tv_sec = 5;
+  modbus_set_response_timeout(plc,&response_timeout);
   ros::Rate loop_rate(spin_rate);
 
   while (ros::ok())
@@ -92,6 +95,7 @@ plc_modbus_manager::plc_modbus_manager()
         ROS_ERROR("Unable to read reg addr:%d", regs_addr.at(i));
         ROS_ERROR("%s", modbus_strerror(errno));
         return;
+      usleep(1000);
       }
       else
       {
@@ -116,6 +120,7 @@ plc_modbus_manager::plc_modbus_manager()
       {
         coils_val.data.push_back(temp[0]);
       }
+    usleep(1000);
     }
     if (coils_val.data.size() > 0)
     {
@@ -151,6 +156,7 @@ void plc_modbus_manager::regs_callBack(const std_msgs::UInt16MultiArray::ConstPt
     {
       ROS_INFO("Modbus register write at addr:%d with value:%u", regs_addr.at(i), regs_data->data.at(i));
     }*/
+  usleep(1000);
   }
 }
 
@@ -174,6 +180,7 @@ void plc_modbus_manager::coils_callBack(const std_msgs::ByteMultiArray::ConstPtr
     {
       ROS_INFO("Modbus coil write at addr:%d with value:%u", coils_addr.at(i), coils_data->data.at(i));
     }
+  usleep(1000);
   }
 }
 
