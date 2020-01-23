@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <launch>
 
+    <arg name="monitoring_tool" default="false"/>
+    
     <!-- launch communication library -->
     <include file="$(find communication)/launch/communication_library.launch"/>
 
@@ -19,6 +21,8 @@
     <!-- launch light controller -->
     <node pkg="person_detection" type="modbus_light" name="modbus_light" output="screen" />
 
+    <!-- launch monitoring-tool -->
+    <node if="$(arg monitoring_tool)" pkg="cpswarm_server_bringup" type="monitoring-service" name="monitoring_tool"/>
 
 </launch>
 
