@@ -78,7 +78,7 @@ plc_modbus_manager::plc_modbus_manager()
   }
 
   struct timeval response_timeout;
-  response_timeout.tv_sec = 5;
+  response_timeout.tv_sec = 8;
   modbus_set_response_timeout(plc,&response_timeout);
   ros::Rate loop_rate(spin_rate);
 
