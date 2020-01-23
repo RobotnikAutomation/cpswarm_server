@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
   ros::Subscriber sub_controller = n.subscribe<std_msgs::Int8>("controller_pressed", 1, callback_controller);
   //
   ros::Publisher pub_state = n.advertise<cpswarm_msgs::CurrentState>("current_state", 100);
-  ros::Rate loop_rate(1);
+  ros::Rate loop_rate(0.5);
   cpswarm_msgs::CurrentState state_msg;
   state_msg.swarmio.name = "current_state";
 
