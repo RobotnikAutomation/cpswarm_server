@@ -31,15 +31,15 @@ void callback_person(std_msgs::Bool person_detected_msg)
 
 void callback_controller(std_msgs::Int8 controller_msg)
 {
-  //ROS_ERROR("BUTTON");
+  // ROS_ERROR("BUTTON");
   switch (controller_msg.data)
   {
     case 1:
       /* green */
       if (state == 0) /*87
        {
-         /* init -> run */
-        ROS_INFO("init -> run");
+         /* home -> run */
+        ROS_INFO("home -> run");
       state = 1;
       break;
     case 2:
@@ -47,13 +47,19 @@ void callback_controller(std_msgs::Int8 controller_msg)
       if (state == 3)
       {
         /* stop -> init */
-        ROS_INFO("stop -> init");
+        ROS_INFO("stop -> home");
         state = 0;
       }
       break;
     case 3:
       /* red */
-      if (state == 1)
+      if (state == 0)
+      {
+        /* home -> stop */
+        ROS_INFO("home -> stop");
+        state = 3;
+      }
+      else if (state == 1)
       {
         /* run -> stop */
         ROS_INFO("run -> stop");
