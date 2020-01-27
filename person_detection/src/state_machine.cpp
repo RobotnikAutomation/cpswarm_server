@@ -36,11 +36,12 @@ void callback_controller(std_msgs::Int8 controller_msg)
   {
     case 1:
       /* green */
-      if (state == 0) /*87
-       {
-         /* home -> run */
+      if (state == 0)
+      {
+        /* home -> run */
         ROS_INFO("home -> run");
-      state = 1;
+        state = 1;
+      }
       break;
     case 2:
       /* yellow */
