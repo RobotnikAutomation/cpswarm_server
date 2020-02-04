@@ -53,12 +53,15 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AreaDivisionEvent.msg
+  AreaModificationEvent.msg
   ArrayOfPositions.msg
   ArrayOfStates.msg
   ArrayOfVectors.msg
   CartKnownEvent.msg
   CurrentState.msg
   NewCartEvent.msg
+  NewPlacePoses.msg
+  NewPlacePose.msg
   Position.msg
   StateEvent.msg
   TargetPositionEvent.msg
@@ -82,7 +85,6 @@ add_service_files(
   GetPoint.srv
   GetPoints.srv
   GetSector.srv
-  GetVector.srv
   GetWaypoint.srv
   NedToEnu.srv
   OutOfBounds.srv
