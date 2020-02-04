@@ -7,6 +7,7 @@
 // 0 init 1 run 2 slow 3 stop
 int state = 0;
 bool person = false;
+void callback_controller(std_msgs::Int8 controller_msg);
 
 void callback_person(std_msgs::Bool person_detected_msg)
 {
@@ -27,6 +28,13 @@ void callback_person(std_msgs::Bool person_detected_msg)
       state = 1;
     }
   }
+}
+
+void callback_monitoring(cpswarm_msgs::CurrentState monitoring_control)
+{
+	
+	callback_controller(monitoring_control.state);
+	
 }
 
 void callback_controller(std_msgs::Int8 controller_msg)
@@ -87,6 +95,7 @@ int main(int argc, char *argv[])
   //
   ros::Subscriber sub_person = n.subscribe<std_msgs::Bool>("person_detection", 1, callback_person);
   ros::Subscriber sub_controller = n.subscribe<std_msgs::Int8>("controller_pressed", 1, callback_controller);
+  ros::Subscriber sub_monitoring = n.subscribe<cpswarm_msgs::CurrentState>("bridge/events/monitoring_control_event", 1, callback_monitoring);  
   //
   ros::Publisher pub_state = n.advertise<cpswarm_msgs::CurrentState>("current_state", 100);
   ros::Rate loop_rate(0.5);
