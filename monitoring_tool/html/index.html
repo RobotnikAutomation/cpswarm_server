@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+      .leaflet-zoom-anim .leaflet-zoom-animated {
+        transition: 3s;
+      }
+
+      body{
+        height: 99%;
+        width: 100%;
+        margin: 0px;
+      }
+
+      html{
+        height: 99%;
+        width: 100%;
+        margin: 0px;
+      }
+
+      #mapid { 
+        height: 100%;
+      }
+
+      .menu_button {
+        border: none;
+        color: white;
+        margin: 1px;
+        padding: 5px;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      #menuLeft {
+        height: 90%;
+        width: 8%;
+        float: left;
+        font-size: 16px;
+        font-family: arial;
+      }
+      #menuRight {
+        height: 100%;
+        width: 30%;
+        float: right;
+        font-size: 16px;
+        font-family: arial;
+      }
+
+      .icon{
+        width:30px;
+        height: 30px;
+      }
+    
+    .panel{
+        border-radius: 5px 5px 5px 5px;
+      }
+
+      .optionPanel{
+        border-radius: 5px 5px 5px 5px;
+        padding: 5px 5px;
+        border: 1px solid grey;
+      }
+       
+    .panelright{
+      height: 97%;
+      overflow-y: scroll;
+      background-color: #f9bd08;
+        /*border: 1px solid #000000;*/
+
+    }
+
+      .agentPanel{
+        border: 1px solid #000000;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #fce3af;
+        margin:5px 10px;
+        font-family: arial;
+        font-size: 12px;
+        padding: 5px
+      }
+
+      .nameSpan{
+        font-size: 14px;
+      }
+
+      .attributeType{
+        font-weight: bold;
+      }
+
+      .attribute{
+        margin-left: 10px;
+      }
+
+      .dropdown_wrapper{
+        float:right;
+      }
+
+      .dropdown_wrapper button{
+        padding: 0px
+      }
+
+      .dropdown_wrapper:hover .dropdown_content{
+        display: block;
+      }
+
+      .dropdown_content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 9999;
+        min-width: 160px;
+        width : auto;
+        right: 0px;
+        overflow-y: scroll;
+        max-height: 90vh;
+      }
+
+      .foldable_wrapper:active .foldable_content{
+        display: block;
+      }
+
+      .foldable_content:hover{
+        display: block;
+      }
+
+      .foldable_content {
+        display: none;
+        background-color: white;
+        z-index: 9999;
+        min-width: 160px;
+        width : auto;
+      }
+
+      .event_button{
+        color: #000000;
+        border: 1px solid black;
+        margin: 1px 0px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px 5px 5px 5px;
+      }
+
+      .event_button:active {
+        background-color: grey;
+      }
+
+    .selectionButton{
+      background-color: #f9bd08;
+      outline: none;
+      border: none;
+      padding: 3px 10px;
+      margin: 3px 4px;
+      border-radius: 5px;
+    }
+
+    .operationAreaButton{
+      background-color: red;
+      outline: none;
+      border: none;
+      z-index: 9999;
+      padding: 3px 10px;
+      margin: 3px 4px;
+      border-radius: 5px;
+    }
+    
+    .start_button{
+        background-color: #6c9f48;
+        color: white;
+        border: none;
+        font-weight: bold;
+        margin: 8px 5px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 7px;
+        padding: 10px;
+    }
+
+    .start_button:active {
+        background-color: grey;
+    }
+    /* */
+    .rearm_button{
+        background-color: #96930a;
+        color: white;
+        border: none;
+        font-weight: bold;
+        margin: 8px 5px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 7px;
+        padding: 10px;
+    }
+
+    .rearm_button:active {
+        background-color: grey;
+    } 
+/* */    
+    .abort_button{
+        background-color:  #fe6219;
+        color: white;
+        border: none;
+        font-weight: bold;
+        margin: 8px 5px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 7px;
+        padding: 10px;
+      }
+
+    .abort_button:active {
+        background-color: grey;
+    }
+
+      .commonEvents{
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      .missionlist{
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      .missionListItem{
+        float:left;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .layerWrapper:hover .layerContainer{
+        display: block;
+      }
+
+      .layerWrapper{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9998;
+      }
+
+      .operationAreaWrapper{
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        visibility: hidden;
+        background-color: grey;
+        bottom: 0;
+        right: 50%;
+        z-index: 9998;
+      }
+
+      .commonEventsWrapper{
+        float: left;
+        top: 0px;
+        left: 0;
+        position: absolute;
+        z-index: 9998;
+      }
+
+      .layerContainer li input{
+        display: none;
+      }
+
+      .layerContainer{
+        background-color: grey;
+        display: none;
+        position: absolute;
+        list-style-type: none;
+        top: 40px;
+        right: 0;
+        z-index: 9999;
+        margin:0px;
+        padding: 0px;
+        text-align: right;
+      }
+
+      .layerContainer il{
+        margin: 0px;
+      }
+
+      .goodStatus{
+        background-color: green;
+      }
+
+      .badStatus{
+        background-color: red;
+      }
+
+      .statusCloseButton{
+        float: right;
+      }
+
+      .selectedAgent{
+        background-color: green;
+      }
+
+      .scrollable{
+        overflow-y: scroll;
+      }
+
+      #status{
+        margin: 1px;
+        height: 100%;
+        overflow-y: scroll;
+      }
+
+      .header{
+        margin: 0px;
+        width: 100%;
+        height: 5%;
+      }
+
+      .middle{
+        margin: 0px;
+        width: 100%;
+        height: 76%;
+      }
+
+      .footer{
+        margin: 0px;
+        width: 100%;
+        height: 19%;
+      }
+
+      .mapWrapper{
+        position: relative;
+        width:70%;
+        height: 100%;
+      }
+
+      .resizeable{
+        resize: both;
+        overflow: auto;
+      }
+
+      label{
+        background-color: red;
+        white-space:nowrap;
+      }
+
+      input:checked + label{
+        background-color: green;
+      }
+
+      .onlineStatus{
+        color: black;
+      }
+
+      .offlineStatus{
+        color: red;
+      }
+
+      .icon_name{
+        position: absolute;
+        right: 0px;
+        bottom: -16px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20% 20%;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        /*width: 15px;*/
+      }
+
+      .content{
+        transition: max-height 0.2s ease-out;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+
+      .active, .collapsible:hover {
+        background-color: grey;
+      }
+
+      .details{
+        background-color: #f1f2f1;
+      }
+
+      .collapsible {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+
+      .agentName{
+        font-weight: bold;
+      }
+
+      .eventMonitorHeader{
+        background-color: #f9bd08;
+      }
+
+      .monitorPanel{
+        width: 100%;
+        
+      }
+
+      .circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 10px;
+        color: #fff;
+        line-height: 500px;
+        text-align: center;
+        background: #000
+      }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <body>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    <div class="header">
+      
+      <div style="float:right;background-color: #f9bd08;width:30%;height: 100%;position: relative;">
+        <div>
+          <ul id="customEventList" class="missionlist"></ul>
+        </div>
+        
+        <div style="position: absolute;top: 25%;right: 5px " class="dropdown_wrapper">
+          <img src="gear.png" class="icon" alt="Options"/>
+          <div class="dropdown_content">
+            <div class="optionPanel">Parameter Configuration</div>
+            <div id="parameter_configuration_panel" class="optionPanel"></div>
+            <div class="optionPanel">Event Generator</div>
+            <div id="event_trigger_panel" class="optionPanel"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 100%">
+        <img style="height: 100%;float:left" src="image.png">
+        <div style="padding: 4px">
+          <span style="font-family: arial;font-size:35px;">Monitoring and Control Tool</span>
+        </div>
+      </div>
+    </div>
+    <div class="middle">
+      <div id="menuRight">
+        <div>
+          <button onclick="selectAllAgents()" class="selectionButton">Select All</button>
+          <button onclick="deselectAllAgents()" class="selectionButton">Deselect All</button>
+          <button onclick="modifyOperationArea()" class="selectionButton">Modify Operation Area</button>
+        </div>
+        <div id="monitor" class="panelright"></div>
+      </div>
+      <div class="mapWrapper">
+        <div class="commonEventsWrapper">
+          <ul id="globalEventList" class="commonEvents">
+          </ul>
+        </div>
+        <div class="layerWrapper">
+          <img style="background-color:grey;padding: 5px" src="gear.png" class="icon">
+          <ul id="layer-control" class="layerContainer"></ul>
+        </div>
+        <div id="mapid">
+        </div>
+        <div id="operationAreaMenu" class="operationAreaWrapper">
+          <button onclick="operationAreaSave()" class="operationAreaButton">Save</button>
+          <button onclick="operationAreaCancel()" class="operationAreaButton">Cancel</button>
+          <button onclick="operationAreaClear()" class="operationAreaButton">Clear</button>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+      <div style="height: 100%" class="scrollable">
+        <table id="eventMonitor" class="monitorPanel">
+          <tr class="eventMonitorHeader">
+            <th></th>
+            <th>Source</th>
+            <th>Event</th>
+            <th>Details</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="configuration.js"></script>
+    <script src="communication_lib.js"></script>
+  </body>
+</html>

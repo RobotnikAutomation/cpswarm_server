@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>The Pentagon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -0.09281113743782045,51.510591275209045,100 
+            -0.0929546356201172,51.510288291475540,100 
+            -0.09254559874534608,51.510190635132030,100 
+            -0.09236723184585571,51.510504470158025,100
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      <innerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -0.09274005889892578,51.51050530482277,100 
+            -0.09282588958740236,51.510341710241526,100 
+            -0.09259521961212158,51.510278275449934,100 
+            -0.09249866008758546,51.51043853159527,100
+          </coordinates>
+        </LinearRing>
+      </innerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>

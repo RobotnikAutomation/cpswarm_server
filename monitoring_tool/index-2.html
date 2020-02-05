@@ -1,0 +1,68 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Desconocido </title></head><body>
+<h2 id="packages-required">Packages Required</h2>
+<p>The following packets will be need through the installation:</p>
+<p><code>sudo apt-get install git cmake build-essential clang rapidjson-dev apache2</code></p>
+<h2 id="installation">Installation</h2>
+<h3 id="checking-out-required-repositories">Checking out required repositories</h3>
+<p>First checkout needed repositories:</p>
+<p>```
+git clone git@git.repository-pert.ismb.it:pkarachatzis/monitoring-tool.git
+cd monitoring-tool/
+mkdir service
+cd services
+git clone git@git.repository-pert.ismb.it:pkarachatzis/monitoring-tool-service.git
+git clone https://github.com/cpswarm/swarmio.git</p>
+<p>```</p>
+<h3 id="building-swarmio-lib">Building swarmio lib</h3>
+<p>Navigate to the 'service' directory</p>
+<p>Build the swarmio library:</p>
+<p>```
+cd swarmio/
+mkdir build
+cd build/
+cmake ..
+make</p>
+<p>```</p>
+<h3 id="build-monitoring-tool-service">Build monitoring tool service</h3>
+<p>Navigate to the 'service' directory</p>
+<p>Before building the monitoring tool, you need to change the paths in the CMakeLists</p>
+<p>```
+set(LIBSWARMIO_BUILD_PATH "/home/karachatzis/monitoring-tool/service/swarmio")
+set(LIBSWARMIO_LOCAL_INSTALL_PATH "${LIBSWARMIO_BUILD_PATH}/build/devroot-amd64")</p>
+<p>```</p>
+<p>Build the monitoring tool service:
+<code>cd monitoring-tool-service/
+mkdir build;cd build;cmake ..;make</code></p>
+<h3 id="setting-up-gui">Setting up Gui</h3>
+<p>Navigate to the 'monitoring-tool' directory</p>
+<p>```
+cd cgi-script/
+make
+sudo make install</p>
+<p>cd /var/www/
+sudo ln -s /home/karachatzis/monitoring-tool/html/ html-gui
+sudo vi /etc/apache2/sites-enabled/000-default.conf
+```</p>
+<p>Open <code>/etc/apache2/sites-enabled/000-default.conf</code> with your prefered editor (sudo privillages) and do the following changes (the changes are within VirtualHost element):</p>
+<p>```
+-   DocumentRoot /var/www/html
++   DocumentRoot /var/www/html-gui</p>
+<ul>
+<li><Directory "/usr/local/"></li>
+<li>Require all granted</li>
+<li></Directory>
++</li>
+<li>ScriptAlias "/cgi-bin/" "/usr/local/cgi-bin/"</li>
+<li><Directory "/usr/local/cgi-bin/"></li>
+<li>Options +ExecCGI</li>
+<li>AddHandler cgi-script .cgi</li>
+<li></Directory>
+```</li>
+</ul>
+<p>Finally:</p>
+<p><code>sudo a2enmod cgi
+sudo service apache2 restart</code></p>
+<h2 id="running">Running</h2>
+<p>Start the monitoring-tool-service, either directly <code>./monitoring-service</code> or by using a service</p>
+<p>Open the browser at the localhost(127.0.0.1) ip (in case of linux use chromium as firefox is having performance issues with JS)</p>
+</body></html>
